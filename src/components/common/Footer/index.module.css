@@ -1,0 +1,137 @@
+.container {
+  background-color: #f5f6f7;
+  padding: 40px;
+  margin-top: 84px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.header_container,
+p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.02em;
+
+  /* Utility / Black */
+
+  color: #1a1a1c;
+}
+.social_img,
+img {
+  margin: 10px;
+}
+ol,
+li {
+  text-align: justify;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  /* Utility / Black */
+
+  color: #1a1a1c;
+}
+.footer_section {
+  margin: 10px 140px;
+}
+
+.footer_content_container {
+  display: flex;
+}
+
+.footer_content_left {
+  flex: 1;
+  font-family: Inter;
+
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 10px;
+  text-align: justify;
+}
+.footer_content_right {
+  flex: 1;
+  font-family: Inter;
+  text-align: justify;
+
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 765px) {
+  .wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social_img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer_section {
+    width: 100vw;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+  .footer_content_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_content_left {
+    margin-bottom: 20px;
+  }
+  .footer_section {
+    margin: 0;
+  }
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-self: flex-start;
+    
+  }
+  .header_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 10px;
+  }
+  .header_container p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

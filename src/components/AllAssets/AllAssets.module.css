@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: 40px;
+}
+.left {
+  flex: 1;
+}
+.tab_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header{
+  margin-right: 40px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.025em;
+  color: #5B616E;
+  cursor: pointer;
+}
+.header.active{
+  color: #1A1A1C;
+  text-decoration: underline;
+}
+.right {
+  flex: 1;
+  padding: 40px;
+}
+.cards{
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}

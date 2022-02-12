@@ -1,0 +1,43 @@
+.image{
+  width: 295px; 
+  height: 639px
+}
+.heading {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 44px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  font-feature-settings: "pnum" on, "onum" on;
+}
+.description {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
+}
+
+.label {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  margin-bottom: 15px;
+}
+.input_container{
+  margin-top: 50px;
+}
+.withLabel{
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .image{
+    width: 276px;
+    height: 598px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .button{
+    width: 100% !important;
+  }
+}

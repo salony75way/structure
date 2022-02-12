@@ -1,0 +1,38 @@
+.container{
+    max-width: 978px;
+    height: 268px;
+    margin: 0 auto;
+    padding: 0 50px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 15%);
+    margin-top: 80px;
+}
+.heading{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+    margin-bottom: 10px;
+}
+.description, .title{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+.spots_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.spots{
+    margin-top: 2px;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: -0.035em;
+    margin-bottom: 10px;
+}

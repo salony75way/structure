@@ -1,0 +1,17 @@
+.image{
+  width: 295px; 
+  height: 639px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .image{
+    width: 276px;
+    height: 598px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .image{
+    width: 280px;
+    height: 575px;
+  }
+}
